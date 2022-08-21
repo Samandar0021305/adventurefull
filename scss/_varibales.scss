@@ -5,3 +5,9 @@ $background-color:red;
     justify-content: space-between;
     align-items: center;
 }
+.variables--center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

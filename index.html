@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>adventurefull</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
@@ -15,6 +22,7 @@
            <a class="navbar__logo" href="#">
                 <h2>ADVENTURE</h2>
            </a>
+           <img class="navbar__toogle" src="./img/menu.png" alt="logo">
 
            <ul class="navbar__list variables-flex">
             <li class="navbar__item">
@@ -39,7 +47,33 @@
            </ul>
 
         </nav>
+
+        <aside class="aside ">
+            <button class="aside__btn" type="button">x</button>
+            <ul class="aside__list variables--center">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Home </a>
+                    <span class="navbar__bg"></span>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Tours  </a>
+                    <span class="navbar__bg"></span>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Explore </a>
+                    <span class="navbar__bg"></span>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">About  </a>
+                    <span class="navbar__bg"></span>
+                </li>
+                <li class="navbar__item">
+                  <button class="navbar__btn">contact</button>
+                </li>
+               </ul>
+        </aside>
     </div>
 
 </body>
+<script src="./js/main.js"></script>
 </html>

@@ -1,4 +1,6 @@
 .wrapper{
     min-height: 100vh;
-    background-color: red;
+    background: url("../../img/wrapper-img.webp"),no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }

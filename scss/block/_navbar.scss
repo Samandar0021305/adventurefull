@@ -1,5 +1,11 @@
 .navbar{
     padding: 20px 0;
+    &__toogle{
+        display: none;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
     &__list{
         width: 50%;
         color: white;
@@ -8,7 +14,7 @@
         margin-top: 2px;
         width: 0;
         height: 2px;
-        background-color: green;
+        background-color: darkslategrey;
         transition: width 0.5s ease-in;
     }
     &__link{
@@ -27,5 +33,36 @@
     }
     &__logo{
         color: white;
+    }
+    &__btn{
+        color: white;
+        border: none;
+        background-color: rgb(203, 35, 63);
+        padding: 6px 12px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s ease-in , color 0.5s ease-in;
+        &:hover{
+            background-color: white;
+            color: red;
+        }
+    }
+}
+
+
+@media (max-width:1110px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width:659px){
+    .navbar{
+        &__list{
+            display: none;
+        }
+        &__toogle{
+            display: flex;
+        }
     }
 }

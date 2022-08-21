@@ -1,0 +1,31 @@
+.aside{
+    width: 200px;
+    position: fixed;
+    display: none;
+    right: 0;
+    top: 0;
+    background-color: red;
+    height: 100%;
+   
+    &__list li {
+       margin: 5px 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+    &__btn{
+        color: white;
+        font-size: 30px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin: 10px 30px;
+        font-family: 'Rubik Dirt', cursive;
+    }
+}
+
+
+.aside__box{
+    display: block !important;
+}

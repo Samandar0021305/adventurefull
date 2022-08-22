@@ -1,7 +1,10 @@
 .wrapper{
     min-height: 100vh;
-    background: url("../../img/wrapper-img.webp"),no-repeat;
+    background: url("../../img/header-bg.png"),no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: bottom;
+    background-position-x: center;
+    background-position-y: bottom;
     opacity: 0.9;
 }

@@ -21,11 +21,11 @@
         width: 100%;
         display: flex;
         cursor: pointer;
-        border: 10px solid white ;
+        border: 20px solid white ;
         // transition:z-index  0.7s ease;
         transition: border 0.5s ease;
         &:hover{
-            border: 0px solid white;
+            border: 10px solid white;
         }
     }
     &__item{

@@ -4,4 +4,26 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    &__title{
+        font-size: 46px;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    &__bg{
+        display: block;
+        background-color: rgb(206, 19, 56);
+        width: 200px;
+        height: 5px;
+        text-align: center;
+        border-radius: 3px;
+    }
+    &__box{
+        padding: 140px 140px;
+    }
+    &__box p {
+        color: rgb(206, 199, 199);
+        width: 50%;
+        margin: 30px 0;
+    }
 }

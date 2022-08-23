@@ -52,3 +52,12 @@
      margin-bottom: 10px;   
     }
 }
+
+
+@media (max-width:400px){
+    .section {
+        &__item{
+            width: 100% !important;
+        }
+    }
+}
